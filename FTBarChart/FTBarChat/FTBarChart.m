@@ -25,7 +25,7 @@
 -(NSArray *)dataSourceArr
 {
     if (_dataSourceArr == nil) {
-        _dataSourceArr = @[@"万色水母", @"飞兰", @"万色益+",@"万色益+", @"其它"];
+        _dataSourceArr = @[@"第一个", @"第二个", @"第三个",@"第四个", @"其它"];
     }
     return _dataSourceArr;
 }
@@ -190,7 +190,7 @@
 
 - (NSArray *)TextArray {
     if (!_TextArray) {
-        _TextArray = [NSArray arrayWithObjects:@"万色益+",@"万色水母", @"万色益+", @"其它", nil];
+        _TextArray = [NSArray arrayWithObjects:@"第一个", @"第二个", @"第三个",@"第四个", @"其它", nil];
     }
     return _TextArray;
 }
