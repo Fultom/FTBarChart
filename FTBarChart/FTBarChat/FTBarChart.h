@@ -8,16 +8,16 @@
 
 #import <UIKit/UIKit.h>
 #define Bar_botton_y 30 //统计图下方的空隙距离
+//#define Bar_Space 
 
 @interface FTBarChart : UIView
 
-@property (nonatomic, assign) CGFloat MaxHeight; //背景的最大高度
+/** 背景的最大高度 */
+@property (nonatomic, assign) CGFloat MaxHeight;
 /** 下方文字的数组 */
 @property (nonatomic, strong) NSArray *TextArray;
 /** 每个条形的数量 */
 @property (nonatomic, strong) NSArray *NumberArray;
-
-
 
 //数据源
 @property (nonatomic, strong) NSArray *dataSourceArr;

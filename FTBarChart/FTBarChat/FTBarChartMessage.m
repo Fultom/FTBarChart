@@ -19,10 +19,13 @@
 
 
 + (NSArray *)showTheYcoordinates:(CGFloat)value {
-    int k = value / 50 + 1;
+    
+    int scale = value/6;
+    
+    int k = value / scale + 0;
     NSMutableArray *arr = [NSMutableArray array];
     for (int i = 0; i <= k; i++) {
-        NSString *valueStr = [NSString stringWithFormat:@"%d", i * 50];
+        NSString *valueStr = [NSString stringWithFormat:@"%d", i * scale];
         [arr addObject:valueStr];
     }
     return [arr mutableCopy];

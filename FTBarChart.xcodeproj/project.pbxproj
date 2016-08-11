@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DF4E5C781D5C1D8A00820BAA /* Statistics_With_Bubbles@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF4E5C771D5C1D8A00820BAA /* Statistics_With_Bubbles@2x.png */; };
 		DFAAACA01D4728F1009CBA50 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DFAAAC9F1D4728F1009CBA50 /* main.m */; };
 		DFAAACA31D4728F1009CBA50 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DFAAACA21D4728F1009CBA50 /* AppDelegate.m */; };
 		DFAAACA61D4728F1009CBA50 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFAAACA51D4728F1009CBA50 /* ViewController.m */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DF4E5C771D5C1D8A00820BAA /* Statistics_With_Bubbles@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Statistics_With_Bubbles@2x.png"; sourceTree = "<group>"; };
 		DFAAAC9B1D4728F1009CBA50 /* FTBarChart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FTBarChart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFAAAC9F1D4728F1009CBA50 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DFAAACA11D4728F1009CBA50 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -95,6 +97,7 @@
 		DFAAACB51D4729B7009CBA50 /* FTBarChat */ = {
 			isa = PBXGroup;
 			children = (
+				DF4E5C771D5C1D8A00820BAA /* Statistics_With_Bubbles@2x.png */,
 				DFAAACB91D472A79009CBA50 /* FTBarChartViewController.h */,
 				DFAAACBA1D472A79009CBA50 /* FTBarChartViewController.m */,
 				DFAAACBF1D472E19009CBA50 /* FTBarChartMessage.h */,
@@ -167,6 +170,7 @@
 				DFAAACAE1D4728F1009CBA50 /* LaunchScreen.storyboard in Resources */,
 				DFAAACAB1D4728F1009CBA50 /* Assets.xcassets in Resources */,
 				DFAAACA91D4728F1009CBA50 /* Main.storyboard in Resources */,
+				DF4E5C781D5C1D8A00820BAA /* Statistics_With_Bubbles@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,6 +338,7 @@
 				DFAAACB41D4728F1009CBA50 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

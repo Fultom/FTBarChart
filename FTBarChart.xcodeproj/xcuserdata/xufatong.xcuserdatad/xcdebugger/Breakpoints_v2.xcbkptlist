@@ -20,12 +20,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "FTBarChart/FTBarChat/FTBarChart.m"
-            timestampString = "491278537.940593"
+            timestampString = "492577548.566031"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "173"
-            endingLineNumber = "173"
-            landmarkName = "-singleTap:"
+            startingLineNumber = "139"
+            endingLineNumber = "139"
+            landmarkName = "-setupTheHistogramView"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>

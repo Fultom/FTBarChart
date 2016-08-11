@@ -40,12 +40,12 @@
     self.backgroundColor = [UIColor whiteColor];
     self = [super initWithFrame:frame];
     if (self) {
-        _view1 = [[UIView alloc]initWithFrame:CGRectMake(0, self.frame.size.height, (frame.size.width-5) *0.5, 0)];
-        _view1.backgroundColor = [UIColor redColor];
+        _view1 = [[UIView alloc]initWithFrame:CGRectMake(0, self.frame.size.height, (frame.size.width-1) *0.5, 0)];
+        _view1.backgroundColor = [UIColor colorWithRed:(250/255.0)  green:(246/255.0)  blue:(80/255.0)  alpha:1.0];
         [self addSubview:_view1];
-        _view2 = [[UIView alloc]initWithFrame:CGRectMake(self.frame.size.width *0.5+0.25, self.frame.size.height, (self.frame.size.width-5) *0.5, 0)];
+        _view2 = [[UIView alloc]initWithFrame:CGRectMake(self.frame.size.width *0.5+0.5, self.frame.size.height, (self.frame.size.width-1) *0.5, 0)];
         
-        _view2.backgroundColor = [UIColor yellowColor];
+        _view2.backgroundColor = [UIColor colorWithRed:(141/255.0)  green:(205/255.0)  blue:(245/255.0)  alpha:1.0];
 
         [self addSubview:_view2];
     }
